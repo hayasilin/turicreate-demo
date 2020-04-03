@@ -14,7 +14,7 @@ metrics = model.evaluate(test_data)
 print('accuracy')
 print(metrics['accuracy'])
 
-model.save('./ImageClassify.model')
+model.save('./ImageClassification.model')
 
 model.export_coreml('./ImageClassification.mlmodel')
 
